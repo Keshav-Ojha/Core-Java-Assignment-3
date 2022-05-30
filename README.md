@@ -1,19 +1,19 @@
-# Core-Java-Assignment-2
+# Core-Java-Assignment-3
 
 Question 
 
-Q 2. ArrayList
-Sort the given ArrayList in descending order
-Given ArrayList, sort the given ArrayList in descending order
-This exercise contains a class named ArrayListSort with the following method:
-+arrayListSortDesc(ArrayList<BigInteger>) : ArrayList<BigInteger>
-    -Should accept arraylist of type BigInteger as input
-    -Should sort the given ArrayList in descending order
-    -Should return the sorted ArrayList in descending order as output
+Q 3. Wrapper class
+Determine the type of primitive value and convert to its Wrapper class value
+Given a primitive value, determine primitive type and convert given primitive type value to its Wrapper class value
+This exercise contains a class named WrapperClassConvert with the following method:
++convertToWrapper(object) : object
+    -Should accept object of primitive type as input and return Object of wrapper class as result
+    -Should determine and convert given primitive type to its wrapper class
+    -Should return "Give proper primitive as input" if object is null or not primitive type of data
 
 Example
 Sample Input:
-[24,543534,545,2342,9]
+10
 
 Expected Output:  
-[543534,2342,545,24,9]
+10
